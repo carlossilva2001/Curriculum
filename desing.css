@@ -1,0 +1,89 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 10px;
+    padding: 0;
+}
+header{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(80, 80, 255);
+}
+
+header figure{
+    background-color: white;
+    align-items: center;
+}
+
+header ul{
+    display: inline-flex;
+    gap: 50px;
+    text-align: center;
+    margin-top: 80px;
+    list-style: none;
+}
+
+.foto {
+    height: auto;
+    width: 150px;
+    margin: 10px;
+    
+}
+
+.nomes{
+    color: white;   
+}
+
+.Nome_principal{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+
+.Formação{
+    font-size: 25px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.Endereços{
+    align-items: center;
+
+}
+
+.Endereços a{
+    text-decoration: none;
+    color: black;
+}
+.Endereços a:hover{
+    color:rgb(250, 106, 106);
+}
+
+ion-icon{
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.title-resumo{
+    text-align: center;
+}
+
+.title-ODS{
+    text-align: center;
+}
+
+.title-Habilit{
+    text-align: center;
+}
+
+.title-educate{
+    text-align: center;
+}
+
+.title-hobbie{
+    text-align: center;
+}

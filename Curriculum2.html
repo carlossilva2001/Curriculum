@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="desing.css">
-
-    <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Carlos Daniel Teodoro da Silva</h1>
+        <figure>
+            <img class="foto" src="figs/foto_perfil.png">
+        </figure>
+        <div class="nomes">
+            <p class="Nome_principal">Carlos Daniel Teodoro da Silva</p>
+            <p class="Formação">Bach. em Eng. de Software</p>
+            <ul class="Endereços">
+                <li><ion-icon name="mail-outline"></ion-icon><a href="mailto:carlossilva.2001@alunos.utfpr.gov">carlossilva.2001@alunos.utfpr.gov</a></li>
+                <li><ion-icon name="logo-linkedin"></ion-icon><a href="https://www.linkedin.com/in/carlos-silva-962aa2315/">/Carlos Silva</a></li>
+                <li><ion-icon name="logo-github"></ion-icon><a href="https://github.com/carlossilva2001">Meu Github</a></li>
+            </ul>
+        </div>       
     </header>
-    <figure>
-        <div class="foto-perfil">
-            <img src= "figs/foto_perfil.png" alt="Foto Perfil gerada por IA">
-        </div>
-    </figure>
-    <nav>
-        <ul>
-            <li><span class="material-icons">email</span>Email:<a href="mailto:carlossilva.2001@alunos.utfpr.gov">carlossilva.2001@alunos.utfpr.gov</a></li>
-            <li><span class="material-icons">work</span>Linkedin: <a href="https://www.linkedin.com/in/carlos-silva-962aa2315/">https://www.linkedin.com/in/carlos-silva-962aa2315/</a></li>
-            <li> <span class="material-icons">location_on</span>Andirá, Paraná</li>
-        </ul>
-        
-        <h2>Resumo</h2>
+    <h2 class="title-resumo">Resumo</h2>
         
         <p>Topográfo, Projetista na Empresa PLANTTO GEO </p>
         <p>Operador e gestor de aplicação com Aeronave Remotamente Pilotada (DRONE) na empresa AGROVANT </p>
         <p>Principais áreas de interese são Agricultura de Precisão, Agricultura Sustentável, Agricultura Digital</p>
-        <h2>Habilidades</h2>    
+
+        <h2 class="title-Habilit">Habilidades</h2>    
         <ol>
             <li>Levantamento e processamento de dados via GNSS RTK</li>
             <li>Processamento de imagens via levantamento Aéreo com aeronave remotamente pilotada</li>
@@ -37,12 +36,12 @@
             <li>Locação / Demarcação de obras, Imóveis rurais e Urbano</li>
         </ol>
 
-        <h2>ODS que pretendo contribuir</h2>
+        <h2 class="title-ODS">ODS que pretendo contribuir</h2>
             <figure>
                 <img src="figs/ods.svg" alt="Ods contribuição" width="200" height="200">
             </figure>
 
-        <h2>Eduacação</h2>
+        <h2 class="title-educate">Eduacação</h2>
         <dl>
             <dt>Graduação em Tecnico em Agropecuaria</dt>
                 <dd>CEEPA Mohamad Ali Hanze</dd>
@@ -57,18 +56,19 @@
                 <dd>SEBRAE - Nutrição para Produção de Cafés Especiais - 2 hrs</dd>
                 <dd>UNIALCANCE - Auxiliar de Mecânica Automotiva - 72 hrs</dd>
         </dl>
-        <h2>Hobbies</h2>
+        <h2 class="title-hobbie">Hobbies</h2>
         <ul>
             <li>Mecher com carro vintage</li>
             <li>Assistir Series</li>
             <li>Passar tempo de lazer com a familia e amigos</li>
         </ul>
-        <h2>Links Adicionais</h2>
-        <a href="https://github.com/carlossilva2001">Meu Github</a>
     </nav>
     <footer>
         <p>CV - Carlos Daniel Teodoro da Silva - 2024</p>
       </footer>
 
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
