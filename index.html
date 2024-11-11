@@ -5,70 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="desing.css">
 </head>
 <body>
-    <header>
-        <figure>
-            <img class="foto" src="figs/foto_perfil.png">
-        </figure>
-        <div class="nomes">
-            <p class="Nome_principal">Carlos Daniel Teodoro da Silva</p>
-            <p class="Formação">Bach. em Eng. de Software</p>
-            <ul class="Endereços">
-                <li><ion-icon name="mail-outline"></ion-icon><a href="mailto:carlossilva.2001@alunos.utfpr.gov">carlossilva.2001@alunos.utfpr.gov</a></li>
-                <li><ion-icon name="logo-linkedin"></ion-icon><a href="https://www.linkedin.com/in/carlos-silva-962aa2315/">/Carlos Silva</a></li>
-                <li><ion-icon name="logo-github"></ion-icon><a href="https://github.com/carlossilva2001">Meu Github</a></li>
-            </ul>
-        </div>       
+    <header class="Nome">
+        <p id="Nome_Principal">Carlos Daniel Teodoro da Silva</p>
     </header>
-    <h2 class="title-resumo">Resumo</h2>
-        
-        <p>Topográfo, Projetista na Empresa PLANTTO GEO </p>
-        <p>Operador e gestor de aplicação com Aeronave Remotamente Pilotada (DRONE) na empresa AGROVANT </p>
-        <p>Principais áreas de interese são Agricultura de Precisão, Agricultura Sustentável, Agricultura Digital</p>
-
-        <h2 class="title-Habilit">Habilidades</h2>    
-        <ol>
-            <li>Levantamento e processamento de dados via GNSS RTK</li>
-            <li>Processamento de imagens via levantamento Aéreo com aeronave remotamente pilotada</li>
-            <li>Elaboração de plantas e memorias via software</li>
-            <li>Locação / Demarcação de obras, Imóveis rurais e Urbano</li>
-        </ol>
-
-        <h2 class="title-ODS">ODS que pretendo contribuir</h2>
-            <figure>
-                <img src="figs/ods.svg" alt="Ods contribuição" width="200" height="200">
+    <div class="informações">
+        <div class="Informações_pessoais">
+            <figure class="foto">
+                <img id="Foto_perfil" src="figs/foto_perfil.png" alt="Foto Perfil">
             </figure>
-
-        <h2 class="title-educate">Eduacação</h2>
-        <dl>
-            <dt>Graduação em Tecnico em Agropecuaria</dt>
-                <dd>CEEPA Mohamad Ali Hanze</dd>
-                <dd>2015 - 2018</dd>
-                <dt>Curso de Especialização</dt>
-                <dd>SENAR - Agricultura de Precisão - operação de drone - 24 hrs</dd>
-                <dd>SENAR - MIP - Manejo Integrado de Pragas - 52 hrs</dd>
-                <dd>SENAR - Operação de tratores e implementos - NR 31.12 - 24 hrs</dd>  
-                <dd>SENAR - Aplicação de agrotóxicos - NR 31.8 - 24 hrs</dd>
-                <dd>SEBRAE - Conceito e Definição de Starups em Pitch - 40 hrs</dd>
-                <dd>SEBRAE - Desing Thinking - 4 hrs</dd>
-                <dd>SEBRAE - Nutrição para Produção de Cafés Especiais - 2 hrs</dd>
-                <dd>UNIALCANCE - Auxiliar de Mecânica Automotiva - 72 hrs</dd>
-        </dl>
-        <h2 class="title-hobbie">Hobbies</h2>
-        <ul>
-            <li>Mecher com carro vintage</li>
-            <li>Assistir Series</li>
-            <li>Passar tempo de lazer com a familia e amigos</li>
-        </ul>
-    </nav>
-    <footer>
-        <p>CV - Carlos Daniel Teodoro da Silva - 2024</p>
-      </footer>
-
-
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <h3>Informações Pessoais</h3>
+            <dl id="Informações_pessoais">
+                <dt>Nome:</dt>
+                    <dd>Carlos Daniel Teodoro da Silva</dd>
+                <dt>Data de nascimento:</dt>
+                    <dd>09/10/2011</dd>
+                <dt>Nacionalidade:</dt>
+                    <dd>Brasileiro</dd>
+                <dt>Carteira de Habilitação:</dt>
+                    <dd>A, B</dd>
+            </dl>
+        </div>
+        <div class="Informações_profisionais">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur sunt repudiandae minus mollitia sapiente perspiciatis accusantium consequuntur veritatis dolore alias delectus tempora, nisi fugiat quidem a nam animi assumenda possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione harum neque incidunt quod rem commodi ea dicta laborum provident porro dolores similique praesentium voluptate quas voluptatem, nemo quam nulla explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit reiciendis beatae, consequuntur eveniet esse culpa non aspernatur sed repudiandae corrupti minima facilis expedita fugit? Cumque maiores itaque earum sint repellat!</p>
+        </div>
+    </div>
 </body>
 </html>
